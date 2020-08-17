@@ -14,7 +14,7 @@ class Player(pg.sprite.Sprite):
 
     def move(self, dx=0, dy=0):
         self.x += dx
-        self.y += dy
+        self.y += dy        
 
     def update(self):
         self.rect.x = self.x * TILESIZE
